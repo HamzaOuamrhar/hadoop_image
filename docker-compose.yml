@@ -1,0 +1,7 @@
+services:
+  hadoop:
+    image: hadoop_i
+    container_name: hadoop
+    build:
+      context: .
+      dockerfile: Dockerfile
